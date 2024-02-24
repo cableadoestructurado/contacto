@@ -37,9 +37,14 @@
             margin-bottom: 2em;
         }
 
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
         .gallery-item {
-            width: 100%; /* Cambiado el ancho a 100% para adaptarse al tamaño de la página */
-            height: auto; /* Auto para mantener la proporción de la imagen */
+            width: 30%; /* Ajustado el ancho para tres columnas */
             margin: 1em;
             overflow: hidden;
             border-radius: 8px;
@@ -89,7 +94,7 @@
     </div>
 
     <!-- Sección de Galería -->
-    <section>
+    <section class="gallery">
         <div class="gallery-item">
             <img src="https://media.discordapp.net/attachments/1200740890013085736/1210828123457720320/IMG_20221027_163529800_HDR.jpg?ex=65ebfa90&is=65d98590&hm=38289f86908cd6a65ca9ed54cbabf63c532c830f2ed927296351679d561c891a&=&format=webp&width=676&height=901" alt="Imagen 1">
         </div>
@@ -99,19 +104,17 @@
         <div class="gallery-item">
             <img src="https://cdn.discordapp.com/attachments/1200740890013085736/1210832091919417354/image.png?ex=65ebfe42&is=65d98942&hm=eb4af18fce22e014a83c533fde608813b3de9a4a76b3a632e0996185714b1b7d&" alt="Imagen 3">
         </div>
-    </section>
-    <section>
         <div class="gallery-item">
             <img src="https://cdn.discordapp.com/attachments/1200740890013085736/1210835760962338847/test.png?ex=65ec01ad&is=65d98cad&hm=de1c04cf9d59ffe2a139ab92ec973af56a85ae8a68c015d7c4a04deeea3575b9&" alt="Imagen 3">
         </div>
         <!-- Agrega más elementos según sea necesario -->
     </section>
 
-    <!-- Sección de Contacto -->
     <div class="contact">
         <h2>Contacto</h2>
-        <p>Whatsapp: 443-444-9433</p>
-        <p>Teléfono: 443-444-9433</p>
+        <p>Ponte en contacto conmigo:</p>
+        <p>Email: correo@example.com</p>
+        <p>Teléfono: 123-456-789</p>
     </div>
 
 </body>
